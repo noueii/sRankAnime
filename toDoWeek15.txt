@@ -1,0 +1,3 @@
+AnimeContainer.js <-- build html
+AnimeContainer.css <-- design container
+AnimeChart.css <-- take care of organizing all the AnimeContainers
