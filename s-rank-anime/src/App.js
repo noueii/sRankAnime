@@ -8,9 +8,20 @@ class App extends Component {
     return (
     <div className="App">
         <header>
-          <Heather/>
-          <AnimeFetcher/>
         </header>
+        <body>
+          <Heather/>
+          {/*<AnimeFetcher/>*/}
+          <div className='AnimeContainers'>
+            {/*<AnimeContainer/>
+              /*<AnimeContainer/> 
+              /*<AnimeContainer/>
+              /*<AnimeContainer/>
+              /*<AnimeContainer/>
+              /*<AnimeContainer/>
+            */}
+          </div>
+        </body>
         
     </div>
   );
