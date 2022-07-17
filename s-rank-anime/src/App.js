@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import './App.css';
 import Heather from './Heather';
+import './App.css';
 import AnimeFetcher from './AnimeFetcher'
+import Anime_page from './Anime_page';
 
 class App extends Component {
   render(){
@@ -10,7 +11,9 @@ class App extends Component {
         <header>
         </header>
         <body>
-          <Heather/>
+          {/* <Heather/> */}
+          <Anime_page/>
+          
           {/*<AnimeFetcher/>*/}
           <div className='AnimeContainers'>
             {/*<AnimeContainer/>
