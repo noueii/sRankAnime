@@ -1,0 +1,46 @@
+.container {
+    width: fit-content;
+    height: fit-content;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    /* gap: 10px;
+    padding: 10px;
+    box-sizing: border-box; */
+}
+
+/* .container div {
+    padding: 10px;
+    border: 1px solid #000000;
+} */
+
+.description {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.title {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.genre {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.links {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+.image {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}

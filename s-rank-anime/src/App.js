@@ -3,6 +3,8 @@ import Heather from './Heather';
 import './App.css';
 import AnimeFetcher from './AnimeFetcher'
 import Anime_page from './Anime_page';
+import Anime_container from './Anime_container';
+import Anime_containers from './Anime_containers';
 
 class App extends Component {
   render(){
@@ -11,9 +13,9 @@ class App extends Component {
         <header>
         </header>
         <body>
-          {/* <Heather/> */}
-          <Anime_page/>
-          
+          <Heather/>
+          {/* <Anime_page/> */}
+          <Anime_containers/>
           {/*<AnimeFetcher/>*/}
           <div className='AnimeContainers'>
             {/*<AnimeContainer/>
