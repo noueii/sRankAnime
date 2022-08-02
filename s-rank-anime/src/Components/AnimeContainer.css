@@ -1,0 +1,133 @@
+.animeContainer {
+    width: 100%;
+    height: 400px;
+    padding: 5px 3px;
+
+    display: grid;
+
+    grid-template-rows: .3fr .4fr .3fr 4fr .2fr;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 2px;
+    box-sizing: border-box;
+}
+
+
+
+.containers div {
+    padding: 1px;
+    border: 1px solid #000000;
+}
+
+.description {
+    text-align: left;
+    min-height: 200px;
+    font-size: 10px;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.description::-webkit-scrollbar {
+    width: 5px;
+    
+  }
+
+  .description::-webkit-scrollbar-track {
+    background: rgba(179, 177, 177, 0.299);
+    border-radius: 10px;
+}
+
+  .description::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.959);
+    border-radius: 10px;
+  }
+
+  .description::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 100, 100);
+    border-radius: 10px;
+  }
+
+  .description::-webkit-scrollbar-thumb:active {
+    background: rgb(68, 68, 68);
+    border-radius: 10px;
+  }
+
+
+
+.title {
+    min-height: 45px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 15px;
+    align-items: center;
+}
+
+.title a{
+    position: relative;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.genre {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.popularity{
+    max-height: 20px;
+    font-size: 10px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+ul{
+    margin-block-start: 0px;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    
+}
+
+
+li{
+    padding-left: 3px;
+    padding-right: 3px;
+    display: inline-block;
+}
+
+.links {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+.image {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.image img{
+    width: 175px;
+    aspect-ratio: 150/244;
+    
+}

@@ -1,0 +1,26 @@
+.containers {
+    width: fit-content;
+    height: fit-content;
+
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    box-sizing: border-box;
+
+}
+
+@media all and (max-width:1200px){
+    .containers{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media all and (max-width:700px){
+    .containers{
+        grid-template-columns: 1fr;
+    }
+}
+
