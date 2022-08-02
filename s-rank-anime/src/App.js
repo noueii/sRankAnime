@@ -19,15 +19,15 @@ class App extends Component {
               <Route path="*"/>
             </Routes>
 
-            
+
           </div>
 
         </div>
       </Router>
-        
-    
+
+
   )}
-  
+
 }
 
 export default App;
